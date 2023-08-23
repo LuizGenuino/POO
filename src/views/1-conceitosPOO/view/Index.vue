@@ -31,7 +31,7 @@
             c1.destampar();<br>
             this.resultado = c1.rabiscar();<br>
         </code>
-        <p>exibindo o valor da variavel resultado: </p>
+        <p>exibindo o valor da variavel resultado com novo valor: </p>
         <div class="terminal">
             <p>{{ rabisca2 }}</p>
         </div>
