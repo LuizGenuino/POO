@@ -6,7 +6,7 @@
       <router-link to="/visibilidade">visibilidade</router-link> |
       <router-link to="/metodos">Metodos Especiais</router-link> |
       <router-link to="/conta-banco">Conta no Banco</router-link> |
-      <router-link to="/encapsulamento">Encapsulamento</router-link> |
+      <router-link to="/encapsulamento">Encapsulamentos</router-link> |
     </nav>
     <router-view/>
   </div>
