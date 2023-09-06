@@ -5,9 +5,8 @@
 </template>
         
 <script lang="ts">
-export { Pessoa } from './pessoa'
-export { Aluno } from './aluno'
-export { Professor } from './professor'
+import { Pessoa } from './pessoa'
+import { Aluno } from './aluno'
 
 export default {
     
@@ -28,12 +27,11 @@ export default {
         inicia(): void { // Adicione a anotação de tipo para a função inicia()
            const p1 = new Pessoa()
            const p2 = new Aluno()
-           const p3 = new Professor()
 
            p1.setNome('Pedro')
-           p2.setNome('Tiago') // como a classe Aluno e Professor estende (herda) a classe Pessoa
-           p3.setNome('João') // ela recebe os tributos e metodos publico como o setNome
-           // no entando a classe pessoa não recebe nada das suas subclasses
+           p2.setNome('Tiago') // como a classe Aluno e Professor estende (herda) a classe Pessoa ela recebe os tributos e metodos publico
+           p2.setMatricula(1233) // utilizando um metodo da propria classe aluno
+           p2.setCurso("Informatica")
         }
     }
 };
